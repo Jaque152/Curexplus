@@ -37,7 +37,7 @@ export const CATEGORIES_EN: Category[] = [
   "Instruments", "Rehabilitation", "Training", "Supplies"
 ];
 
-// 1. NUEVA ESTRUCTURA: Datos globales una sola vez, textos separados por idioma.
+// 1. ESTRUCTURA DRY: Datos globales una sola vez, traducciones separadas
 const rawProducts = [
   {
     id: 1,
@@ -343,7 +343,7 @@ const rawProducts = [
     id: 16,
     slug: "colchon-viscoelastico-cama-hospitalaria",
     price: 27113.17,
-    image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTPG0XBnmID_dhiDoJggRvOqfYyYP4XrDp0Rmxn-pr08o15QTF0C4g3ot5Dyq-LnZy1BbcSlTHdIz8GBnXI7v_fCZl5aZ9QjSUVL8GzKYO55QaMFq-yuB3gKw",
+    image: "https://img.medicalexpo.es/images_me/photo-g/68247-16200187.jpg",
     es: {
       name: "Colchón viscoelástico para cama hospitalaria",
       category: "Mobiliario Hospitalario" as Category,
@@ -363,7 +363,7 @@ const rawProducts = [
     id: 17,
     slug: "compresor-vascular-scd700",
     price: 85014.95,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHtoGXZzUoYihm1yAZzX8ysfBmStNDyJ8V1rHLSxgBzzBBYRVhjUw1_amH&s=10",
     es: {
       name: "Compresor vascular SCD700",
       category: "Equipo Médico" as Category,
@@ -383,7 +383,7 @@ const rawProducts = [
     id: 18,
     slug: "concentrador-oxigeno-5l-olv5",
     price: 12597.6,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://http2.mlstatic.com/D_NQ_NP_920363-MLM72005837677_092023-O.webp",
     es: {
       name: "Concentrador de Oxígeno de 5 L/min OLV-5",
       category: "Equipo Médico" as Category,
@@ -403,7 +403,7 @@ const rawProducts = [
     id: 19,
     slug: "contador-celulas-8-teclas-electronico",
     price: 11879.13,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://ctrscientific.com/cdn/shop/files/CTL-DIFD-08KP.jpg?v=1683742467",
     es: {
       name: "Contador de células de 8 teclas electrónico",
       category: "Laboratorio" as Category,
@@ -423,7 +423,7 @@ const rawProducts = [
     id: 20,
     slug: "contador-celulas-8-teclas-mecanico",
     price: 11837.08,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://http2.mlstatic.com/D_NQ_NP_853311-MLM53609214750_022023-O.webp",
     es: {
       name: "Contador de células de 8 teclas mecánico",
       category: "Laboratorio" as Category,
@@ -443,7 +443,7 @@ const rawProducts = [
     id: 21,
     slug: "contador-colonias-manual-acero-inoxidable",
     price: 20385.84,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://image.made-in-china.com/202f0j00brUCTLctvsqp/SCITEK-Bacterial-Colony-Counter-laboratory-3-times-manual-colony-counter.webp",
     es: {
       name: "Contador de colonias manual en acero inoxidable",
       category: "Laboratorio" as Category,
@@ -463,7 +463,7 @@ const rawProducts = [
     id: 22,
     slug: "contador-diferencial-manual-9-teclas",
     price: 20078.15,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://elcrisol.com.mx/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/h/e/heathhs5360b-p.jpg",
     es: {
       name: "Contador diferencial manual de 9 teclas",
       category: "Laboratorio" as Category,
@@ -483,7 +483,7 @@ const rawProducts = [
     id: 23,
     slug: "cortina-antibacteriana-170",
     price: 4326.8,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.accrocher.com/wp-content/uploads/2024/04/Cortinas-Antibacterianas-Importadas-6.jpg",
     es: {
       name: "Cortina antibacteriana de 1.70 m largo × 2.41 m alto, con malla para perfil tubular",
       category: "Mobiliario Hospitalario" as Category,
@@ -503,7 +503,7 @@ const rawProducts = [
     id: 24,
     slug: "cortina-antibacteriana-en-l",
     price: 13709.36,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://http2.mlstatic.com/D_NQ_NP_654645-MLM72203483057_102023-O.webp",
     es: {
       name: "Cortina antibacteriana en L de 2.50 × 2.00 × 3.00 m altura",
       category: "Mobiliario Hospitalario" as Category,
@@ -523,7 +523,7 @@ const rawProducts = [
     id: 25,
     slug: "cubre-sonda-termometro-braun",
     price: 653.42,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/5190KRtNPFL._AC_UF894,1000_QL80_.jpg",
     es: {
       name: "Cubre sonda para termómetro Braun (10 cajas con 20 piezas c/u)",
       category: "Insumos" as Category,
@@ -543,7 +543,7 @@ const rawProducts = [
     id: 26,
     slug: "data-logger-tactil-usb",
     price: 40671.31,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://i0.wp.com/www.delca.com.mx/wp-content/uploads/2016/02/TSB_No_Probe_Left_Angle_-_Copy-12540.jpg?resize=275%2C234&ssl=1",
     es: {
       name: "Data Logger con pantalla táctil de 8 pulgadas y descarga USB",
       category: "Laboratorio" as Category,
@@ -563,7 +563,7 @@ const rawProducts = [
     id: 27,
     slug: "doppler-fetal-bolsillo",
     price: 5048.9,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://hergom-medical.com/cdn/shop/products/159687-800-auto_800x.webp?v=1766447498",
     es: {
       name: "Doppler fetal de bolsillo",
       category: "Equipo Médico" as Category,
@@ -583,7 +583,7 @@ const rawProducts = [
     id: 28,
     slug: "electrocardiografo-se1200-express",
     price: 67641.63,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://novamedicasas.com/wp-content/uploads/2023/09/Electrocardiografo-SE-1200.jpg",
     es: {
       name: "Electrocardiógrafo multicanal con interpretación SE-1200 Express",
       category: "Equipo Médico" as Category,
@@ -603,7 +603,7 @@ const rawProducts = [
     id: 29,
     slug: "escalerilla-de-dedos",
     price: 3655.68,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.rehabimedic.com/wp-content/uploads/2017/05/020110-1-thegem-product-single.jpg",
     es: {
       name: "Escalerilla de dedos",
       category: "Rehabilitación" as Category,
@@ -623,7 +623,7 @@ const rawProducts = [
     id: 30,
     slug: "esferometro-precision-u15030",
     price: 20679.02,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/61fDq03n2vL._AC_UF894,1000_QL80_.jpg",
     es: {
       name: "Esferómetro de precisión U15030",
       category: "Laboratorio" as Category,
@@ -643,7 +643,7 @@ const rawProducts = [
     id: 31,
     slug: "estacion-bombas-infusion-hedy",
     price: 13666.25,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/4/0/6/8/6/40686-large_default.jpg",
     es: {
       name: "Estación para bombas de infusión y perfusión marca HEDY",
       category: "Equipo Médico" as Category,
@@ -663,7 +663,7 @@ const rawProducts = [
     id: 32,
     slug: "estetoscopio-littmann-classic-iii-5620",
     price: 6265.45,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://proveedoramedical.com/wp-content/uploads/2023/05/MC40.jpg",
     es: {
       name: "Estetoscopio Littmann® Classic III adulto, color negro 5620",
       category: "Instrumental" as Category,
@@ -683,7 +683,7 @@ const rawProducts = [
     id: 33,
     slug: "estuche-diagnostico-halogeno-3-5v",
     price: 16874.52,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://medicazodiaco.com/wp-content/uploads/2017/03/97200WA.jpg",
     es: {
       name: "Estuche de diagnóstico recargable de halógeno 3.5 V",
       category: "Instrumental" as Category,
@@ -703,7 +703,7 @@ const rawProducts = [
     id: 34,
     slug: "kit-baumanometro-aneroide-ag1-30",
     price: 531.34,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://alltc.com.mx/cdn/shop/files/BaumanometroMICROLIFE.jpg?v=1705521359",
     es: {
       name: "Kit baumanómetro aneroide con estetoscopio BP AG1-30",
       category: "Instrumental" as Category,
@@ -723,7 +723,7 @@ const rawProducts = [
     id: 35,
     slug: "lampara-localizadora-venas-adultos",
     price: 9258.25,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.beracahmedica.mx/web/image/product.product/12022/image_1920?unique=e0e7d33",
     es: {
       name: "Lámpara localizadora de venas para adultos",
       category: "Equipo Médico" as Category,
@@ -743,7 +743,7 @@ const rawProducts = [
     id: 36,
     slug: "lavabo-cirujano-sencillo-sin-valvula",
     price: 21470.15,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.accutomex.com/wp-content/uploads/2024/09/LAVABO-PARA-CIRUGIA.jpg",
     es: {
       name: "Lavabo para cirujano sencillo de acero inoxidable, sin válvula",
       category: "Mobiliario Hospitalario" as Category,
@@ -763,7 +763,7 @@ const rawProducts = [
     id: 37,
     slug: "lavabo-pasteur-izquierdo-120cm",
     price: 34121.4,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.blesmed.com.mx/wp-content/uploads/2020/11/lavabopasteur2.jpg",
     es: {
       name: "Lavabo Pasteur izquierdo de 120 cm de acero inoxidable",
       category: "Mobiliario Hospitalario" as Category,
@@ -783,7 +783,7 @@ const rawProducts = [
     id: 38,
     slug: "maniqui-cpr-prompt-adulto-nino",
     price: 5686.83,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://shop.nascohealthcare.com/cdn/shop/products/LF06003-main_21959cd2-9477-42c7-aacb-ca46c8026fff_535x.jpg?v=1582601148",
     es: {
       name: "Maniquí CPR Prompt adulto/niño para RCP",
       category: "Capacitación" as Category,
@@ -803,7 +803,7 @@ const rawProducts = [
     id: 39,
     slug: "maniqui-entrenamiento-rcp-basicbilly",
     price: 26099.99,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.3bscientific.com/thumblibrary/P72-D/P72-D_02_1200_1200_Simulador-de-soporte-de-constantes-vitales-BASICBilly-tono-de-piel-oscuro.jpg",
     es: {
       name: "Maniquí de entrenamiento RCP BASICBilly+",
       category: "Capacitación" as Category,
@@ -823,7 +823,7 @@ const rawProducts = [
     id: 40,
     slug: "maniqui-infantil-rcp-baby-tyler",
     price: 8683.74,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/71YRZgJgorL.jpg",
     es: {
       name: "Maniquí infantil realista para RCP modelo Baby Tyler",
       category: "Capacitación" as Category,
@@ -843,7 +843,7 @@ const rawProducts = [
     id: 41,
     slug: "mesa-alta-180-doble-fregadero",
     price: 41502.33,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/3/9/4/7/1/39471.jpg",
     es: {
       name: "Mesa alta de 180 cm con doble fregadero central y cajones",
       category: "Laboratorio" as Category,
@@ -863,7 +863,7 @@ const rawProducts = [
     id: 42,
     slug: "mesa-alta-tratamiento",
     price: 15453.38,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTi6Tr5I35iEy1YfsRoUX8SrCs5LIMeD9qeQKoG56LZ3ZqwnAC9L7ty5u91l4jMAmTlmMWsvgT7taPDa6cNScqPepMJmdMe",
     es: {
       name: "Mesa alta para tratamiento",
       category: "Mobiliario Hospitalario" as Category,
@@ -883,7 +883,7 @@ const rawProducts = [
     id: 43,
     slug: "mesa-baja-tratamiento",
     price: 13035.5,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.rehabimedic.com/wp-content/uploads/2017/08/010101.jpg",
     es: {
       name: "Mesa baja para tratamiento",
       category: "Mobiliario Hospitalario" as Category,
@@ -903,7 +903,7 @@ const rawProducts = [
     id: 44,
     slug: "mesa-inclinacion-electrica-remmy",
     price: 66607.2,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/1/2/1/5/0/12150.jpg",
     es: {
       name: "Mesa de inclinación eléctrica para paciente Mod. REMMY",
       category: "Rehabilitación" as Category,
@@ -923,7 +923,7 @@ const rawProducts = [
     id: 45,
     slug: "mesa-exploracion-pediatrica-esmaltada",
     price: 14215.8,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/3/8/9/5/5/38955.jpg",
     es: {
       name: "Mesa para exploración pediátrica esmaltada",
       category: "Mobiliario Hospitalario" as Category,
@@ -943,7 +943,7 @@ const rawProducts = [
     id: 46,
     slug: "mesa-puente-abs-mpah",
     price: 9638.52,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.beracahmedica.mx/web/image/product.product/17176/image_1920?unique=cb25394",
     es: {
       name: "Mesa puente de ABS modelo MPAH",
       category: "Mobiliario Hospitalario" as Category,
@@ -963,7 +963,7 @@ const rawProducts = [
     id: 47,
     slug: "microscopio-monocular-le800",
     price: 10495.68,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.perea-borobio.com/wp-content/uploads/2019/06/MG_7767.jpg",
     es: {
       name: "Microscopio monocular LE800",
       category: "Laboratorio" as Category,
@@ -983,7 +983,7 @@ const rawProducts = [
     id: 48,
     slug: "monitor-signos-vitales-12-msvg",
     price: 25363.4,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://neotecnia.mx/cdn/shop/files/UCF6001-removebg-preview_400x@2x.png?v=1757551058",
     es: {
       name: "Monitor de signos vitales de 12\" multiparámetro con opción a capnografía MSVG",
       category: "Equipo Médico" as Category,
@@ -1003,7 +1003,7 @@ const rawProducts = [
     id: 49,
     slug: "muletas-axilares-ajustables",
     price: 632.2,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://acdn-us.mitiendanube.com/stores/007/664/983/products/10_b108577f-c5f5-4fe0-ab6f-3ce3c1729437-1e81884bfebe76ec5817787914909147-1024-1024.webp",
     es: {
       name: "Muletas axilares ajustables de aluminio",
       category: "Rehabilitación" as Category,
@@ -1023,7 +1023,7 @@ const rawProducts = [
     id: 50,
     slug: "portavenoclisis-resonancia-magnetica",
     price: 38995.49,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/4/0/3/6/7/40367.jpg",
     es: {
       name: "Portavenoclisis para resonancia magnética",
       category: "Mobiliario Hospitalario" as Category,
@@ -1043,7 +1043,7 @@ const rawProducts = [
     id: 51,
     slug: "refrigerador-medico-7-88",
     price: 54048.08,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/4/1/0/5/5/41055.jpg",
     es: {
       name: "Refrigerador médico de 7.88 pies cúbicos con puerta de cristal",
       category: "Laboratorio" as Category,
@@ -1063,7 +1063,7 @@ const rawProducts = [
     id: 52,
     slug: "refrigerador-medico-vertical-vmc-12m1",
     price: 54357.48,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.inmeza.com/cdn/shop/files/ImberaVMC12-M11024061EnfriadorMedicoVerticalAceroInox334.34litros_600x600.jpg?v=1700855933",
     es: {
       name: "Refrigerador médico vertical con Luz LED de 12 pies modelo VMC-12M1",
       category: "Laboratorio" as Category,
@@ -1083,7 +1083,7 @@ const rawProducts = [
     id: 53,
     slug: "scooter-electrico-ortopedico-todoterreno-4-ruedas",
     price: 15138.0,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/61-E0GEwrbL._AC_UF1000,1000_QL80_.jpg",
     es: {
       name: "Scooter eléctrico ortopédico todoterreno de 4 ruedas",
       category: "Rehabilitación" as Category,
@@ -1103,7 +1103,7 @@ const rawProducts = [
     id: 54,
     slug: "silla-comodo-multifuncional-ajustable",
     price: 2514.07,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/61MShRVe1HL._AC_UF894,1000_QL80_.jpg",
     es: {
       name: "Silla comodo multifuncional y ajustable",
       category: "Mobiliario Hospitalario" as Category,
@@ -1123,7 +1123,7 @@ const rawProducts = [
     id: 55,
     slug: "silla-ruedas-traslado-plegable-ultraligera",
     price: 4014.6,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_UENHnOlJ9_aWpN0HglNSaOsz74InQrUIZhx8CCfymrBtQCIsKyDTKRs&s=10",
     es: {
       name: "Silla de ruedas de traslado plegable ultraligera, capacidad de carga 110 kg",
       category: "Rehabilitación" as Category,
@@ -1143,7 +1143,7 @@ const rawProducts = [
     id: 56,
     slug: "silla-ruedas-electrica-16-100kg",
     price: 22202.4,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZ1BCqmHpLoNufq2NnAY9b06iMFLaVK-XUgvNe8h-CKOcZeElPOAOnmKq&s=10",
     es: {
       name: "Silla de ruedas eléctrica de 16\" soporta hasta 100 kg",
       category: "Rehabilitación" as Category,
@@ -1163,7 +1163,7 @@ const rawProducts = [
     id: 57,
     slug: "silla-toma-muestra-cajon",
     price: 12876.0,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/3/8/7/9/2/38792.jpg",
     es: {
       name: "Silla para toma de muestra con cajón",
       category: "Mobiliario Hospitalario" as Category,
@@ -1183,7 +1183,7 @@ const rawProducts = [
     id: 58,
     slug: "sillon-hospitalario-multiposicion-accesorios",
     price: 103103.35,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/4/0/6/1/7/40617-home_default.jpg",
     es: {
       name: "Sillón hospitalario multiposición con accesorios incluidos",
       category: "Mobiliario Hospitalario" as Category,
@@ -1203,7 +1203,7 @@ const rawProducts = [
     id: 59,
     slug: "sillon-reclinable-electrico-tres-posiciones",
     price: 25979.36,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/4/1/8/2/9/41829-large_default.jpg",
     es: {
       name: "Sillón reclinable eléctrico, tres posiciones",
       category: "Mobiliario Hospitalario" as Category,
@@ -1223,7 +1223,7 @@ const rawProducts = [
     id: 60,
     slug: "soporte-parcial-peso-ajuste-altura-manual",
     price: 129773.55,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrf2pIlUwPUtntJsOdfEFEew5XjYwyutnwUZGAkg7XVfL6cv_JnLjrids&s=10",
     es: {
       name: "Soporte parcial de peso con ajuste de altura manual",
       category: "Rehabilitación" as Category,
@@ -1243,7 +1243,7 @@ const rawProducts = [
     id: 61,
     slug: "termo-hielera-coleman-vacunas-9qt",
     price: 2893.97,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://http2.mlstatic.com/D_NQ_NP_921262-MLM75530150000_042024-O.webp",
     es: {
       name: "Termo hielera Coleman para transporte de vacunas con capacidad de 9 qt",
       category: "Insumos" as Category,
@@ -1263,7 +1263,7 @@ const rawProducts = [
     id: 62,
     slug: "termo-hielera-vacunas-120-litros",
     price: 10019.5,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.beracahmedica.mx/web/image/product.product/2634/image_1920?unique=7d4c0a8",
     es: {
       name: "Termo hielera para vacunas de 120 litros",
       category: "Laboratorio" as Category,
@@ -1283,7 +1283,7 @@ const rawProducts = [
     id: 63,
     slug: "termograficador-refrigerador-refrimed",
     price: 37434.65,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://i0.wp.com/www.delca.com.mx/wp-content/uploads/2019/09/DSC_0859-copy.jpg?resize=627%2C451&ssl=1",
     es: {
       name: "Termograficador para refrigerador marca Refrimed",
       category: "Laboratorio" as Category,
@@ -1303,7 +1303,7 @@ const rawProducts = [
     id: 64,
     slug: "termometro-flexible-10-segundos",
     price: 304.11,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://catalogomedicomx.s3.amazonaws.com/produccion/img/p/3/5/6/0/0/35600-large_default.jpg",
     es: {
       name: "Termómetro flexible tecnología 10 segundos",
       category: "Equipo Médico" as Category,
@@ -1323,7 +1323,7 @@ const rawProducts = [
     id: 65,
     slug: "termometro-pediatrico-flexible-rana-pato",
     price: 236.15,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://http2.mlstatic.com/D_NQ_NP_771754-MLU71572672410_092023-O.webp",
     es: {
       name: "Termómetro pediátrico flexible de Rana o Pato tecnología 30 segundos",
       category: "Equipo Médico" as Category,
@@ -1343,7 +1343,7 @@ const rawProducts = [
     id: 66,
     slug: "termometro-rigido-pluma-60-segundos",
     price: 170.9,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://m.media-amazon.com/images/I/31-7v1tGtkL.jpg",
     es: {
       name: "Termómetro rígido tipo pluma tecnología 60 segundos",
       category: "Equipo Médico" as Category,
@@ -1363,7 +1363,7 @@ const rawProducts = [
     id: 67,
     slug: "videolaringoscopio-vs-10",
     price: 90773.0,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.visionheart.eu/wp-content/uploads/2025/05/Bildschirm-mit-Touchscreen-2.png",
     es: {
       name: "Videolaringoscopio con bateria y pantalla tactil integrada VS-10",
       category: "Equipo Médico" as Category,
@@ -1383,7 +1383,7 @@ const rawProducts = [
     id: 68,
     slug: "videolaringoscopio-vs-10-copia",
     price: 90773.0,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://medivital.com.ec/wp-content/uploads/2025/09/Diapositiva2-1.png",
     es: {
       name: "Videolaringoscopio con bateria y pantalla tactil integrada VS-10 (copia)",
       category: "Equipo Médico" as Category,
@@ -1403,7 +1403,7 @@ const rawProducts = [
     id: 69,
     slug: "vitrina-90cm-contra-muro",
     price: 10543.14,
-    image: "URL_AQUI", // <-- Reemplaza con tu URL
+    image: "https://www.blesmed.com.mx/wp-content/uploads/2018/06/Vitrina-Contramuro-Blesmed-mx.jpg",
     es: {
       name: "Vitrina de 90 cm contra muro",
       category: "Mobiliario Hospitalario" as Category,
