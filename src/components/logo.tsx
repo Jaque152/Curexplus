@@ -72,7 +72,7 @@ export function Logo({ className, tone = "dark", showWord = true }: LogoProps) {
             word,
           )}
         >
-          Nova<span className="text-clay">mediq</span>
+          Curex<span className="text-clay">Plus</span>
         </span>
       )}
     </span>

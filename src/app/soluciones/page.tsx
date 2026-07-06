@@ -14,7 +14,7 @@ import { Reveal } from "@/components/reveal";
 import { QuoteForm } from "@/components/quote-form";
 
 export const metadata = {
-  title: "Soluciones — NOVAMEDIQ",
+  title: "Soluciones — CurexPlus",
   description:
     "Soluciones a la medida de tu institución: equipamiento técnico, funcional y adaptado a tu entorno sanitario.",
 };

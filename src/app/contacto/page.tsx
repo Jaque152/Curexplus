@@ -3,9 +3,9 @@ import { Reveal } from "@/components/reveal";
 import { ContactForm } from "@/components/contact-form";
 
 export const metadata = {
-  title: "Contacto — NOVAMEDIQ",
+  title: "Contacto — CurexPlus",
   description:
-    "Ponte en contacto con NOVAMEDIQ para asesoría sobre equipamiento médico, clínico y de laboratorio.",
+    "Ponte en contacto con CurexPlus para asesoría sobre equipamiento médico, clínico y de laboratorio.",
 };
 
 const INFO = [
@@ -18,8 +18,8 @@ const INFO = [
   {
     icon: Mail,
     label: "Escríbenos",
-    value: "atencion@novamediq.com.mx",
-    href: "mailto:atencion@novamediq.com.mx",
+    value: "atencion@CurexPlus.com.mx",
+    href: "mailto:atencion@CurexPlus.com.mx",
   },
   {
     icon: Phone,

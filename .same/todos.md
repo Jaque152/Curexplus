@@ -1,4 +1,4 @@
-# NOVAMEDIQ — Redesign + E-commerce
+# Curexplus — Redesign + E-commerce
 
 ## Aesthetic: "Clinical Warmth"
 Pine green + warm bone/cream + clay accent · Fraunces (display) + Hanken Grotesk (body)
