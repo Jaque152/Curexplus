@@ -116,18 +116,11 @@ export const dictionaries = {
         btnSolutions: "Explorar soluciones"
       },
       story: {
-        badgeNum: "+68",
         badgeText: "equipos de alta precisión",
         eyebrow: "Nuestro origen",
         title: "Tu socio estratégico en infraestructura médica",
         p1: "En Curexplus nos dedicamos a dotar de mobiliario y tecnología clínica a las instituciones sanitarias. Colaboramos estrechamente con hospitales, clínicas y laboratorios para entregar herramientas que superen los retos técnicos y operativos del día a día.",
         p2: "Nuestro bagaje nos faculta para identificar los requerimientos auténticos de tu iniciativa, abarcando desde el diseño del área hasta su puesta en marcha. Brindamos soporte técnico, agilidad y apego a las normas, ayudando a maximizar la utilidad de los espacios de salud.",
-        stat1Num: "69+",
-        stat1Label: "equipos",
-        stat2Num: "7",
-        stat2Label: "divisiones",
-        stat3Num: "100%",
-        stat3Label: "especialidad médica"
       },
       pillars: {
         eyebrow: "Nuestra esencia",
@@ -414,18 +407,11 @@ export const dictionaries = {
         btnSolutions: "Explore solutions"
       },
       story: {
-        badgeNum: "+68",
         badgeText: "high-precision devices",
         eyebrow: "Our origin",
         title: "Your strategic partner in medical infrastructure",
         p1: "At Curexplus we are dedicated to providing medical furniture and clinical technology to healthcare institutions. We collaborate closely with hospitals, clinics, and laboratories to deliver tools that overcome day-to-day technical and operational challenges.",
         p2: "Our background empowers us to identify the authentic requirements of your initiative, spanning from area design to its implementation. We provide technical support, agility, and regulatory adherence, helping to maximize the utility of healthcare spaces.",
-        stat1Num: "69+",
-        stat1Label: "devices",
-        stat2Num: "7",
-        stat2Label: "divisions",
-        stat3Num: "100%",
-        stat3Label: "medical specialty"
       },
       pillars: {
         eyebrow: "Our essence",

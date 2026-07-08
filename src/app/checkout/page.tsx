@@ -27,7 +27,6 @@ interface FormState {
   firstName: string;
   lastName: string;
   company: string;
-  rfc: string;
   address: string;
   city: string;
   state: string;
@@ -61,7 +60,6 @@ export default function CheckoutPage() {
     firstName: "",
     lastName: "",
     company: "",
-    rfc: "",
     address: "",
     city: "",
     state: "",
@@ -412,14 +410,6 @@ export default function CheckoutPage() {
                     value={form.company}
                     onChange={handleInputChange("company")}
                     placeholder={t.checkoutPage?.companyPh || "Opcional"}
-                  />
-                </FieldBox>
-                <FieldBox label={t.checkoutPage?.rfcLabel || "RFC"}>
-                  <input
-                    className="input-box"
-                    value={form.rfc}
-                    onChange={handleInputChange("rfc")}
-                    placeholder={t.checkoutPage?.rfcPh || "Para facturación"}
                   />
                 </FieldBox>
                 <div className="sm:col-span-2">

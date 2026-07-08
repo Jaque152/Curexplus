@@ -34,12 +34,6 @@ export default function SobreNosotrosPage() {
     },
   ];
 
-  const STATS = [
-    { n: t.aboutPage.story.stat1Num, l: t.aboutPage.story.stat1Label },
-    { n: t.aboutPage.story.stat2Num, l: t.aboutPage.story.stat2Label },
-    { n: t.aboutPage.story.stat3Num, l: t.aboutPage.story.stat3Label },
-  ];
-
   return (
     <>
       {/* Hero */}
@@ -94,7 +88,6 @@ export default function SobreNosotrosPage() {
                 </div>
                 <div className="col-span-2 row-span-3 grid place-items-center rounded-[1.5rem] bg-clay p-6 text-center text-paper">
                   <div>
-                    <p className="font-display text-4xl font-semibold">{t.aboutPage.story.badgeNum}</p>
                     <p className="mt-1 text-sm text-paper/85">
                       {t.aboutPage.story.badgeText}
                     </p>
@@ -117,17 +110,6 @@ export default function SobreNosotrosPage() {
               <p className="mt-4 leading-relaxed text-muted-foreground">
                 {t.aboutPage.story.p2}
               </p>
-
-              <dl className="mt-8 grid grid-cols-3 gap-6 border-t border-sand pt-8">
-                {STATS.map((s) => (
-                  <div key={s.l}>
-                    <dt className="font-display text-3xl font-semibold text-pine">
-                      {s.n}
-                    </dt>
-                    <dd className="mt-1 text-xs text-muted-foreground">{s.l}</dd>
-                  </div>
-                ))}
-              </dl>
             </Reveal>
           </div>
         </div>
