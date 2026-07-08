@@ -16,9 +16,9 @@ export function SiteFooter() {
   ];
 
   const LEGAL = [
-    { label: t.footer.links.terms, href: "/contacto" },
-    { label: t.footer.links.privacy, href: "/contacto" },
-    { label: t.footer.links.returns, href: "/contacto" },
+    { label: t.footer.links.terms, href: "/terminos" },
+    { label: t.footer.links.privacy, href: "/privacidad" },
+    { label: t.footer.links.returns, href: "/devoluciones" },
   ];
 
   return (
